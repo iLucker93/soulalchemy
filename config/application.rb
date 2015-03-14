@@ -13,6 +13,8 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+ENV['RAILS_ADMIN_THEME'] = 'flatly_theme'
+
 module Soulalchemy
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.

@@ -3,10 +3,6 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
-
-before_action :authenticate_user!
-
-
 # Проверка на контроллер, если devise, то вызывает метод configure_permitted_parameters для настройки разрешенных параметров
   before_filter :configure_permitted_parameters, if: :devise_controller?
     
