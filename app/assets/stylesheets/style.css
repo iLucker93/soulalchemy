@@ -9,7 +9,9 @@ Author: KL-Webmedia
 @import url(http://fonts.googleapis.com/css?family=Roboto:100,300);
 
 
-body {background-color:#F4F4F4; color:#565656; font-size:16px; line-height:2; }
+body {background-color:#ffffff; color:#565656; font-size:16px; line-height:2; }
+
+#logo{padding-top: 15px; padding-bottom: 15px;}
 
 h1, h2, h3, h4, h5, h6, ul, li, p, a, table { }
 a {color:#F97307; text-decoration:none; }
@@ -276,14 +278,14 @@ input[type="file"].input-lg {padding:0; } /* nicer in FF */
 
  /* HEADER */
 /* ------ */
-header.main {padding-top:18px; background-color:#36404B; }
+header.main {padding-top:18px; background-color:#ffffff; }
 header.main .navbar {margin-bottom:48px; }
 header.main nav .navbar-brand {padding:0; } /* Logo */
 header.main nav .menu-main {position:relative; top:14px; font-size:14px; }
 header.main nav .menu-main ul li a {color:#97A5B5; }
 header.main nav .menu-main ul li.active a,
-header.main nav .menu-main ul li a:hover,
-header.main nav .menu-main ul li a:focus {color:#F8F8F8; background-color: transparent; }
+header.main nav .menu-main ul li a:hover {color: #61687E}
+header.main nav .menu-main ul li a:focus {color:#61687E; background-color: transparent; }
 header.main nav .menu-main ul li.active a span {padding-bottom:1px; border-bottom:2px solid #F97307; }
 header.main nav .menu-main ul li.open {background-color:#5C6976; }
 header.main nav .menu-main ul li.open > a {color:#F8F8F8; background-color:#5C6976; }
@@ -295,12 +297,12 @@ header.main nav .btn-default {background-color:#6E7D8D; border-color:#6E7D8D; co
 header.main nav .btn-default:hover {background-color:#5C6976; }
 
 /* HEADER (Home 1) */
-header.main.home-1 {height:712px; position:relative; }
+header.main.home-1 {height:525px; position:relative; }
 header.main.home-1 .container {height:100%; position:relative; } 
 header.main.home-1 .header {margin-top:115px; }
 header.main.home-1 .screens {height:390px; width:100%; margin:0; position:absolute; left:0; bottom:0; overflow:hidden; }
 header.main.home-1 .screens p {position:relative; }
-header.main.home-1 .screens img {position:absolute; bottom:0; } /*display:none; */
+header.main.home-1 .screens img {position:static; bottom:0; } /*display:none; */
 
  /* Page header: Title + Breadcrumbs */
 /* -------------------------------- */
