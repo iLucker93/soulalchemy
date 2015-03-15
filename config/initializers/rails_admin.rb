@@ -36,6 +36,7 @@ RailsAdmin.config do |config|
     edit do
       field :title
       field :desc, :ck_editor
+      field :picture, :carrierwave
     end
   end
 
