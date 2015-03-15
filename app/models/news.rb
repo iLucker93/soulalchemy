@@ -1,3 +1,3 @@
 class News < ActiveRecord::Base
-  mount_uploader :picture, CkeditorPictureUploader
+  mount_uploader :image, ImageUploader
 end
