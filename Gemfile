@@ -54,6 +54,7 @@ gem 'rails_config'
 gem 'humans'
 gem 'holder_rails'
 gem 'actiontimer'
+gem 'acts-as-taggable-on', '~> 3.4'
 
 # Images
 # gem 'paperclip'
