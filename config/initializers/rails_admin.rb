@@ -31,4 +31,12 @@ RailsAdmin.config do |config|
     # history_index
     # history_show
   end
+
+  config.model News do
+    edit do
+      field :title
+      field :desc, :ck_editor
+    end
+  end
+
 end

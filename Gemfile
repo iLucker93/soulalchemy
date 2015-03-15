@@ -55,10 +55,12 @@ gem 'humans'
 gem 'holder_rails'
 gem 'actiontimer'
 gem 'acts-as-taggable-on', '~> 3.4'
+gem 'ckeditor'
 
 # Images
 # gem 'paperclip'
 gem 'carrierwave'
+gem 'mini_magick'
 
 # Deploy
 gem 'capistrano'
