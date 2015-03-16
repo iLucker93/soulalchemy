@@ -1,0 +1,51 @@
+- content_for(:page_title, "Новости")
+
+div.container
+  div.row
+    div.col-md-12
+
+      article.blog-item
+        header
+          h2.blog-title
+            | 1000 Teacher Tutorials
+          p.blog-img
+            img.img-rounded src="images/blog_img_1.jpg" alt=""
+          p.blue-box.blog-params
+            span
+              i.fa.fa-calendar
+              time datetime="2013-01-12T22:11"
+                | January 12, 2013
+            span
+              i.fa.fa-user
+              <a href="blog-list.htm">Jonathan Doe</a>
+            span
+              i.fa.fa-tags
+              <a href="blog-list.htm">Webdesign</a>, <a href="blog-list.htm">Inspiration</a>
+            <span class="text-orange">
+              i.fa.fa-comments-o
+                | 23 Comments
+
+        p.blog-description
+          | We have a number of different teams within our agency that specialise in different areas of business so you can be sure that you won't receive a generic service and although we can't boast years and years of service we can ensure you that is a good thing in this industry. Our teams are up to date with the latest technologies.
+        p.text-right.blog-link-more
+          a.btn.btn-theme.btn-orange href="blog-post.htm"
+            | Read more
+
+       
+      ul.pagination
+        li.disabled
+          a href="#"
+            <i class="fa fa-angle-left"></i>
+        li.active
+          a href="videos-list.htm"
+            | 1
+            <span class="sr-only">(current)</span>
+        li
+          a href="#"
+            | 2
+        li
+          a href="#"
+            | 3
+        li
+          a href="#"
+            <i class="fa fa-angle-right"></i>
