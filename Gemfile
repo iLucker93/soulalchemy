@@ -44,6 +44,7 @@ gem 'uglifier'
 gem 'jbuilder'
 gem 'jquery-turbolinks'
 gem 'jquery-fileupload-rails', '0.4.1'
+gem 'russian'
 
 # Other gems
 gem 'slim'

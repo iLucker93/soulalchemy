@@ -1,7 +1,11 @@
 class NewsController < ApplicationController
 
   def index
-    @news = News.all
+    if params[:tag]
+      @news = News.tagged_with(params[:tag])
+    else
+      @news = News.all
+    end
   end
 
   def show
