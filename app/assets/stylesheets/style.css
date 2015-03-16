@@ -11,7 +11,7 @@ Author: KL-Webmedia
 
 body {background-color:#ffffff; color:#565656; font-size:16px; line-height:2; }
 
-#logo{padding-top: 15px; padding-bottom: 15px;}
+#logo {padding-top: 25px; padding-bottom: 15px;}
 
 h1, h2, h3, h4, h5, h6, ul, li, p, a, table { }
 a {color:#F97307; text-decoration:none; }
@@ -279,7 +279,7 @@ input[type="file"].input-lg {padding:0; } /* nicer in FF */
  /* HEADER */
 /* ------ */
 header.main {padding-top:18px; background-color:#ffffff; }
-header.main .navbar {margin-bottom:48px; }
+/*header.main .navbar {margin-bottom:48px; }*/
 header.main nav .navbar-brand {padding:0; } /* Logo */
 header.main nav .menu-main {position:relative; top:14px; font-size:14px; }
 header.main nav .menu-main ul li a {color:#97A5B5; }
@@ -300,7 +300,7 @@ header.main nav .btn-default:hover {background-color:#5C6976; }
 header.main.home-1 {height:525px; position:relative; }
 header.main.home-1 .container {height:100%; position:relative; } 
 header.main.home-1 .header {margin-top:115px; }
-header.main.home-1 .screens {height:390px; width:100%; margin:0; position:absolute; left:0; bottom:0; overflow:hidden; }
+header.main.home-1 .screens {width:100%; margin:0; position: initial; left:0; bottom:0; overflow:hidden; }
 header.main.home-1 .screens p {position:relative; }
 header.main.home-1 .screens img {position:static; bottom:0; } /*display:none; */
 
