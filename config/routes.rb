@@ -7,4 +7,6 @@ Rails.application.routes.draw do
 
   resources :news
 
+  post 'comment', to: 'news#comment'
+
 end

@@ -57,6 +57,7 @@ gem 'holder_rails'
 gem 'actiontimer'
 gem 'acts-as-taggable-on', '~> 3.4'
 gem 'ckeditor'
+gem 'acts_as_commentable'
 
 # Images
 # gem 'paperclip'

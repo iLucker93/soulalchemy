@@ -33,21 +33,7 @@ div.container
             = link_to 'Подробнее', news_path(news.id), class: 'btn btn-theme btn-orange'
 
   hr
-  div.center
-    ul.pagination
-      li.disabled
-        a href="#"
-          <i class="fa fa-angle-left"></i>
-      li.active
-        a href="videos-list.htm"
-          | 1
-          <span class="sr-only">(current)</span>
-      li
-        a href="#"
-          | 2
-      li
-        a href="#"
-          | 3
-      li
-        a href="#"
-          <i class="fa fa-angle-right"></i>
+
+  div.row.center
+    div.col-md-12
+      = paginate @news,   :theme => 'twitter-bootstrap-3'
