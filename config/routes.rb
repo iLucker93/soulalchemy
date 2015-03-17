@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   root 'main#index'
 
   resources :news
+  resources :articles
 
   post 'comment', to: 'news#comment'
 
