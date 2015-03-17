@@ -6,6 +6,7 @@ class NewsController < ApplicationController
     else
       @news = News.all.page(params[:page]).per(3)
     end
+    @tags = News.tag_counts
   end
 
   def show

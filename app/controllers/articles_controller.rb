@@ -6,6 +6,7 @@ class ArticlesController < ApplicationController
     else
       @articles = Article.all.page(params[:page]).per(3)
     end
+    @tags = Article.tag_counts
   end
 
   def show

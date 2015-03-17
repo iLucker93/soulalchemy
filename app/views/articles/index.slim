@@ -1,6 +1,11 @@
 - content_for(:page_title, "Статьи")
 
 div.container
+  div.row
+    div.col-md-10.col-md-offset-1
+      div.filter
+        - @tags.each do |tag|
+          = link_to tag.name, articles_path(tag: tag.name), class: 'btn btn-theme navbar-btn btn-lightblue'
   hr
   - @articles.each do |article|
     div.row
