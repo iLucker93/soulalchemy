@@ -45,4 +45,17 @@ RailsAdmin.config do |config|
     end
   end
 
+  config.model Article do
+    edit do
+      field :title
+      field :desc, :ck_editor
+      field :image, :carrierwave
+      field :tag_list do
+        html_attributes do
+          {:style => "width:90%"}
+        end
+      end
+    end
+  end
+
 end

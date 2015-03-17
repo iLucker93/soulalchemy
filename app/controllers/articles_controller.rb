@@ -1,9 +1,15 @@
 class ArticlesController < ApplicationController
+
   def index
-    @articles = Article.all.page(params[:page]).per(3)
+    if params[:tag]
+      @articles = Article.tagged_with(params[:tag]).page(params[:page]).per(3)
+    else
+      @articles = Article.all.page(params[:page]).per(3)
+    end
   end
 
   def show
     @article = Article.find(params[:id])
   end
+
 end
