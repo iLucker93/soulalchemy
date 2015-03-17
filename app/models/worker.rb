@@ -1,17 +1,16 @@
 # == Schema Information
 #
-# Table name: news
+# Table name: workers
 #
 #  id         :integer          not null, primary key
-#  title      :string(255)
-#  desc       :text
+#  name       :string(255)
+#  role       :string(255)
 #  image      :string(255)
+#  desc       :text
 #  created_at :datetime
 #  updated_at :datetime
 #
 
-class News < ActiveRecord::Base
+class Worker < ActiveRecord::Base
   mount_uploader :image, ImageUploader
-  acts_as_taggable
-  acts_as_commentable
 end
