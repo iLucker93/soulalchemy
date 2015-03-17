@@ -58,4 +58,13 @@ RailsAdmin.config do |config|
     end
   end
 
+  config.model Worker do
+    edit do
+      field :name
+      field :role
+      field :desc, :ck_editor
+      field :image, :carrierwave
+    end
+  end
+
 end

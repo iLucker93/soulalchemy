@@ -18,29 +18,11 @@ div.container
     div.col-md-4
       div.center-block.our-team-item
         figure
-          img.img-rounded src="/images/2.png"
+          = image_tag Worker.last.image, class: 'img-rounded'
           figcaption
-            | Джони Волкер
+            = Worker.last.name
             em
-              | Youtubber &amp; Blogger
-
-    div.col-md-4
-      div.center-block.our-team-item
-        figure
-          img.img-rounded src="/images/22.png"
-          figcaption
-            | Джеймс Грин
-            em
-              | Webdeveloper
-
-    div.col-md-4
-      div.center-block.our-team-item
-        figure
-          img.img-rounded src="/images/24.png"
-          figcaption
-            | Джон Коннор
-            em
-              |Language Trainer
+              = Worker.last.role
 
   hr.invisible
   hr.invisible
