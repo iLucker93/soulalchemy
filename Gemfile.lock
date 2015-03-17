@@ -116,7 +116,7 @@ GEM
       activesupport (>= 3.0.0)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
-    ffi (1.9.7)
+    ffi (1.9.8)
     flutie (2.0.0)
     font-awesome-rails (4.3.0.0)
       railties (>= 3.2, < 5.0)
