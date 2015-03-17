@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   resources :news
   resources :articles
+  resources :workers
 
   post 'comment', to: 'news#comment'
 
