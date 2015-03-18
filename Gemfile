@@ -58,6 +58,7 @@ gem 'actiontimer'
 gem 'acts-as-taggable-on', '~> 3.4'
 gem 'ckeditor'
 gem 'acts_as_commentable'
+gem 'faker'
 
 # Images
 # gem 'paperclip'
@@ -77,6 +78,7 @@ group :test do
   gem 'capybara'
   gem 'mocha'
   gem 'factory_girl'
+  gem 'factory_girl_rails'
   gem 'shoulda-matchers'
 end
 
