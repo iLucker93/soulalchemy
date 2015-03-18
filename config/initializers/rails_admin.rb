@@ -33,6 +33,8 @@ RailsAdmin.config do |config|
   end
 
   config.model News do
+    label_plural "Добавить новость"
+    navigation_label "Новости"
     edit do
       field :title
       field :desc, :ck_editor
